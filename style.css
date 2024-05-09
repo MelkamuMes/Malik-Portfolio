@@ -336,7 +336,7 @@ button:hover {
   padding-top: 10%;
   height: 80vh;
   width: 100vw;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.144),rgba(255, 255, 255, 0.048)), url(/img/Picture1\(1\).png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.144),rgba(255, 255, 255, 0.048)), url(/img/Picture12.png);
    background-size: contain;
   /* background-color: rgb(49, 49, 104); */
   /* border: 1px solid red; */
@@ -460,6 +460,7 @@ button:hover {
 
 .follow-us h3 {
   font-weight: lighter;
+  color: rgb(131, 129, 129);
 }
 
 .socialMediaTxT {
