@@ -12,7 +12,7 @@
 
 body {
   /* background-color: rgb(224, 224, 221); */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.144),rgba(255, 255, 255, 0.178)), url(/img/Picture12.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.144),rgba(255, 255, 255, 0.178)), url(./img/Picture12.png);
   color: rgb(245, 245, 245);
   font-family: sans-serif;
   overflow-x: hidden;
@@ -243,7 +243,7 @@ button:hover {
 }
 
 .ATcontainer h4 {
-  color: #2b3557;
+  color: #6c99ee;
   font-size: smaller;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -296,10 +296,10 @@ button:hover {
 }
 
 .image {
-  margin-top: 130px;
+  margin-top: 0px;
   margin-right: 40px;
-  width: 27vw;
-  height: 70vh;
+  width: 35vw;
+  height: 120vh;
   /* border: 1px solid red; */
 }
 
