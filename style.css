@@ -511,6 +511,7 @@ button:hover {
 .project-container {
   width: 100%;
   height: 100vh;
+  margin-bottom: 120vh;
 }
 
 .project-container h2 {
@@ -603,7 +604,7 @@ button:hover {
 .footer-address {
   /* border: 1px solid red; */
   position: relative;
-  top: 120vh;
+  /* top: 100vh; */
   display: flex;
   justify-content: center;
   padding: 2rem;
