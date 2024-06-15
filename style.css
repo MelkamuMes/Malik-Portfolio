@@ -297,15 +297,15 @@ button:hover {
 }
 
 .image {
-  margin-top: 0px;
+  margin-top: 80px;
   margin-right: 40px;
   width: 35vw;
-  height: 120vh;
+  height: 70vh;
   /* border: 1px solid red; */
 }
 
 .image img {
-  width: 27vw;
+  width: 470px;
   height: 100%;
 }
 
