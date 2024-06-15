@@ -504,10 +504,106 @@ button:hover {
   filter: contrast(100%);
 }
 
+
+
+/* Portifolio */
+
+.project-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.project-container h2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--primaryColor);
+}
+
+.box-container {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  background-color: var(--accentColor);
+}
+
+.box-gallery {
+  position: relative;
+  display: flex;
+  contain: content;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 10px 0 25px 0px rgba(255, 255, 255, 0.2);
+  width: 40vw;
+  height: 70vh;
+  margin: 2rem;
+  contain: content;
+  background: var(--primaryColor);
+}
+
+.box-gallery img {
+  contain: content;
+  width: 603px;
+}
+
+.box-gallery button {
+  position: absolute;
+  display: flex;
+  width: 603px;
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 30px;
+  cursor: pointer;
+  top: 63.4vh;
+  align-items: center;
+  background-color: var(--accentColor);
+}
+
+.box-gallery button:hover {
+  background-color: rgb(28, 57, 121);
+}
+
+.box-gallery button a {
+  color: var(--primaryColor);
+  position: relative;
+  display: flex;
+  margin-left: 50px;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+  font-size: 20px;
+}
+
+/* Slide-in Animations */
+.slide-in-left {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.slide-in-right {
+  transform: translateX(100%);
+  opacity: 0;
+  transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+.slide-in-left.active,
+.slide-in-right.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+
+
+
 /* ----------Address Me----------- */
 .footer-address {
   /* border: 1px solid red; */
   position: relative;
+  top: 120vh;
   display: flex;
   justify-content: center;
   padding: 2rem;
@@ -627,83 +723,5 @@ button:hover {
   color: #fff;
   background-color: rgb(26, 26, 34);
 }
-
-/* Portifolio */
-.project-conainer {
-  width: 100%;
-  height: 100vh;
-}
-
-.project-conainer h2 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  font-size: 50px;
-  font-weight: 700;
-  color: var(--primaryColor);
-}
-
-.box-container {
-  position: relative;
-  display: flex;
-  height: 100vh;
-  background-color: var(--accentColor);
-}
-
-.box-gallery {
-  position: relative;
-  display: flex;
-  contain: content;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  box-shadow: 10px 0 25px 0px rgba(255, 255, 255, 0.2);
-  width: 40vw;
-  height: 70vh;
-  margin: 2rem;
-  contain: content;
-  background: var(--primaryColor);
-}
-
-.box-gallery img {
-  contain: content;
-  width: 553px;
-}
-
-.box-gallery button {
-  position: absolute;
-  display: flex;
-  width: 550px;
-  border-bottom-left-radius: 28px;
-  border-bottom-right-radius: 30px;
-  cursor: pointer;
-  top: 63.4vh;
-  align-items: center;
-  background-color: var(--accentColor);
-}
-
-.box-gallery button:hover {
-  background-color:rgb(28, 57, 121);
-}
-
-.box-gallery button a {
-  color: var(--primaryColor);
-  position: relative;
-  display: flex;
-  margin-left: 50px;
-  text-align: center;
-  text-decoration: none;
-  align-items: center;
-  font-size: 20px;
-}/*# sourceMappingURL=style.css.map */
-
-
-
-
-
-
-
-
-
 
 
